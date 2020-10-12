@@ -41,6 +41,20 @@ html {
   background-size: cover;
 }
 
+.bgimg-5 {
+  background-image: url("images/84256.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-6 {
+  background-image: url("images/bamboo-forest-8.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .caption {
   position: absolute;
   left: 0;
