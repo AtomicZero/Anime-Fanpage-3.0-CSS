@@ -9,6 +9,7 @@ html {
   color: #777;
 }
 
+/* landing page parallax config */
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -84,6 +85,10 @@ h3 {
   display: flex;
 }
 
+.flex-container-5 {
+float: right;
+}
+
 #div1 {
   height: 450px;
   width: 70%;
@@ -115,13 +120,30 @@ h3 {
   opacity: 65%;
 }
 
-#anime-quote1 {
-  margin-left: 25px;
-}
-
 footer {
   text-align: center;
   flex-basis: 100%;
+}
+
+/* page 2 CSS */
+#article-div1 {
+  height: 400px;
+  width: 60%;
+  opacity: 65%;
+}
+#article-div2 {
+  height: 400px;
+  width: 60%;
+  opacity: 65%;
+}
+
+#aside-div1 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  height: 850px;
+  width: 20%;
+  opacity: 65%;
 }
 
 /* pagination CSS */
