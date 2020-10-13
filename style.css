@@ -85,8 +85,15 @@ h3 {
   display: flex;
 }
 
+.flex-container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
 .flex-container-5 {
-float: right;
+  float: right;
 }
 
 #div1 {
@@ -129,12 +136,31 @@ footer {
 #article-div1 {
   height: 400px;
   width: 60%;
-  opacity: 65%;
 }
+
+#history-bubble {
+  padding: 10px;
+  max-width: 400px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 7px;
+  border-radius: 0px 60px;
+}
+
+#genre-bubble {
+  padding: 10px;
+  max-width: 600px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 7px;
+  border-radius: 0px 60px;
+}
+
 #article-div2 {
   height: 400px;
   width: 60%;
-  opacity: 65%;
 }
 
 #aside-div1 {
@@ -143,7 +169,30 @@ footer {
   right: 16px;
   height: 850px;
   width: 20%;
-  opacity: 65%;
+}
+
+#gundam-text {
+  font-size: 8em;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 
 /* pagination CSS */
