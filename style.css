@@ -99,32 +99,27 @@ h3 {
 #div1 {
   height: 450px;
   width: 70%;
-  opacity: 65%;
   text-align: center;
 }
 
 #div2 {
   height: 450px;
   width: 30%;
-  opacity: 65%;
 }
 
 #div3 {
   width: 70%;
   height: 300px;
-  opacity: 65%;
 }
 
 #divR {
   width: 30%;
   height: 300px;
-  opacity: 65%;
 }
 
 #div4 {
   width: 100%;
   height: 30%;
-  opacity: 65%;
 }
 
 footer {
@@ -173,6 +168,106 @@ footer {
   width: 20%;
 }
 
+/* Naruto blocks */
+#naruto-1,
+#naruto-2,
+#naruto-3,
+#naruto-4,
+#naruto-5,
+#naruto-6,
+#naruto-7 {
+  height: 200px;
+  width: 200px;
+}
+
+#naruto-1 {
+  position: absolute;
+  bottom: 205px;
+  right: 200px;
+}
+
+#naruto-2 {
+  position: absolute;
+  bottom: 480px;
+  right: 750px;
+}
+
+#naruto-3 {
+  position: absolute;
+  top: 400px;
+  right: 1100px;
+}
+
+#naruto-4 {
+  position: absolute;
+  top: 400px;
+  right: 400px;
+}
+
+#naruto-5 {
+  position: absolute;
+  top: 0px;
+  right: 80px;
+}
+
+#naruto5-1 {
+  transform: scaleY(-1);
+}
+
+#naruto-6 {
+  position: absolute;
+  bottom: 178px;
+  left: 0px;
+}
+
+#naruto-7 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#naruto7-1 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* TOOLTIP */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  text-orientation: upright;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+
+  /* Position the tooltip */
+  top: -115px;
+  right: -60%;
+  position: relative;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* NARUTO GLOW */
+img:hover {
+  filter: drop-shadow(0 0 0.95rem crimson);
+}
+
+/* GUNDAM GLOWING TEXT */
 #gundam-text {
   font-size: 8em;
   writing-mode: vertical-lr;
@@ -189,11 +284,13 @@ footer {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
-  
+
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
 
