@@ -234,6 +234,11 @@ footer {
   transform: rotate(90deg);
 }
 
+#naruto-tag {
+  position: relative;
+  top: 22px;
+}
+
 /* TOOLTIP */
 .tooltip {
   position: relative;
